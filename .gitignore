@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+data/raw/
+
+# Hide core logic and engine
+src/analytics.py
+src/data_fetcher.py
+
+# Hide raw and processed luxury data
+data/
